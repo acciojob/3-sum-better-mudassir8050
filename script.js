@@ -31,3 +31,9 @@ function threeSum(nums, target) {
   
   return closestSum;
 }
+
+const nums = [-1, 2, 1, -4];
+const target = 1;
+
+console.log(threeSum(nums, target)); // Output: 2
+
